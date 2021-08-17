@@ -1,0 +1,45 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+html, body {
+    background-color: #E4E8F6;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.search-box{
+    width: 732px;
+    height: 412px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+} 
+
+.search-menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.search-input{
+    width: 732px;
+    height: 302px;
+    background-color: #F4F6FD;
+    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 15px 15px;
+    position: relative;
+    top: 48px;
+    border-top: 3px solid #E4E8F6;
+}
+
