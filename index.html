@@ -1,54 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
-  <title>search flights</title>
-</head>
-<body>
-  <div class="search">
-    <div class="search-box">
-      <div class="search-menu">
-        <button>Flights</button>
-        <button>Flights + Hotel</button>
-        <button>Rent a Car</button>
-        <button>Hotel</button>
-      </div>
-      
-      <div class="search-input">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>search flights</title>
+  </head>
+  <body>
+    <div class="search">
+      <div class="search-box">
+        <div class="search-menu">
+          <button>Flights</button>
+          <button>Flights + Hotel</button>
+          <button>Rent a Car</button>
+          <button>Hotel</button>
+        </div>
 
-       <div class="input-field" >
-        <div class="title">
-          <p>From</p>
-          <p>To</p>
+        <div class="search-input">
+          <div class="input-field">
+            <div class="title">
+              <p>From</p>
+              <p>To</p>
+            </div>
+            <div class="inputs">
+              <div class="input">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19.5186 13.6768L25.9581 11.9514C26.6413 11.7683 27.3691 11.8642 27.9816 12.2178C28.5941 12.5714 29.0411 13.1538 29.2241 13.837C29.4072 14.5201 29.3113 15.248 28.9577 15.8605C28.6041 16.473 28.0216 16.9199 27.3385 17.103L8.01997 22.2794L2.08571 15.5872L5.94942 14.552L9.2154 16.4376L13.0791 15.4023L8.08766 7.07717L11.9514 6.04189L19.5186 13.6768Z"
+                    stroke="#080A2B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4 28H28"
+                    stroke="#080A2B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <input
+                  type="text"
+                  class="search-input-field"
+                  placeholder="From?"
+                  id="search-input-field"
+                  name="search-input-field"
+                  value=""
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="off"
+                  spellcheck="false"
+                />
+              </div>
+              <div class="input">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.2088 15.7474L26.6483 17.4728C27.3314 17.6559 27.9139 18.1028 28.2675 18.7153C28.6211 19.3278 28.717 20.0557 28.5339 20.7388C28.3509 21.422 27.9039 22.0044 27.2914 22.358C26.6789 22.7117 25.9511 22.8075 25.2679 22.6244L5.9494 17.4481L4.15625 8.68537L8.01996 9.72065L9.90557 12.9866L13.7693 14.0219L13.6091 4.31642L17.4728 5.35169L20.2088 15.7474Z"
+                    stroke="#080A2B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4 28H28"
+                    stroke="#080A2B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <input
+                  type="text"
+                  class="search-input-field"
+                  placeholder="Where are you going?"
+                  id="search-input-field"
+                  name="search-input-field"
+                  value=""
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="off"
+                  spellcheck="false"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-         <div class="inputs">
- 
-         <div class="input">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19.5186 13.6768L25.9581 11.9514C26.6413 11.7683 27.3691 11.8642 27.9816 12.2178C28.5941 12.5714 29.0411 13.1538 29.2241 13.837C29.4072 14.5201 29.3113 15.248 28.9577 15.8605C28.6041 16.473 28.0216 16.9199 27.3385 17.103L8.01997 22.2794L2.08571 15.5872L5.94942 14.552L9.2154 16.4376L13.0791 15.4023L8.08766 7.07717L11.9514 6.04189L19.5186 13.6768Z" stroke="#080A2B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M4 28H28" stroke="#080A2B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          <input type="text" class="search-input-field" placeholder="From?" id="search-input-field" name="search-input-field" value="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />            
-         </div>
-        
-         <div class="input">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20.2088 15.7474L26.6483 17.4728C27.3314 17.6559 27.9139 18.1028 28.2675 18.7153C28.6211 19.3278 28.717 20.0557 28.5339 20.7388C28.3509 21.422 27.9039 22.0044 27.2914 22.358C26.6789 22.7117 25.9511 22.8075 25.2679 22.6244L5.9494 17.4481L4.15625 8.68537L8.01996 9.72065L9.90557 12.9866L13.7693 14.0219L13.6091 4.31642L17.4728 5.35169L20.2088 15.7474Z" stroke="#080A2B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M4 28H28" stroke="#080A2B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          <input type="text" class="search-input-field" placeholder="Where are you going?" id="search-input-field" name="search-input-field" value="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />            
-         </div>
-        </div>
-       </div>
       </div>
-      
     </div>
-    
-  </div>
-</body>
-</html> 
-
-
+  </body>
+</html>
