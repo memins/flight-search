@@ -27,7 +27,7 @@ body {
   margin-top: 50px;
 }
 
-button {
+.menu-button {
   background-color: #ffffff;
   border: none;
   cursor: pointer;
@@ -39,13 +39,13 @@ button {
   font-weight: 300;
 }
 
-button:first-child {
+.menu-button:first-child {
   margin-left: 60px;
 }
 
-button:hover,
-button:active,
-button:focus {
+.menu-button:hover,
+.menu-button:active,
+.menu-button:focus {
   font-weight: 500;
   color: #080a2b;
   border-bottom: 3px solid black;
@@ -109,4 +109,45 @@ input {
 
 input:focus {
   outline: none;
+}
+
+.searchButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 612px;
+  margin: 50px 0 50px 60px;
+}
+
+.radioText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.radioText > p {
+  margin: unset;
+  margin-left: 15px;
+}
+
+.inputRadio {
+  margin: unset;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border: 2px solid #959fc2;
+  box-sizing: border-box;
+  box-shadow: 0px 14px 18px -9px rgba(17, 42, 131, 0.1);
+  border-radius: 5px;
+}
+
+.search-button {
+  color: #ffffff;
+  font-size: 18px;
+  width: 194px;
+  height: 62px;
+  left: 912px;
+  top: 694px;
+  background: #000000;
+  border-radius: 5px;
 }
